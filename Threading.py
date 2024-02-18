@@ -12,7 +12,7 @@ def summation(list_target):
         for j in range(1, 1001):
             sum_result += sin(j) * (i**2) / (i**3)
     list_target.append(sum_result)
-    print(list_target)
+print(summation(List_1))
 
 def series():
     new_series = 0
@@ -21,7 +21,7 @@ def series():
     List_2.append(new_series)
 
 
-    print(List_2)
+print(List_2)
 print('_'*50)
 
     
